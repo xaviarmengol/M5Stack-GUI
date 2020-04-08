@@ -1,0 +1,35 @@
+{
+    "name": "M5Stack-GUI", 
+    "version": "0.1.0", 
+    "keywords": [
+        "gui,m5,m5stack,graphic,logging,modular"
+    ], 
+    "description": "Modular GUI for M5Stack, based on cfGUI project", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [], 
+    "authors": [
+        {
+            "email": "xafontova@gmail.com", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "Xavier Armengol"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/xaviarmengol/M5Stack-GUI"
+    }, 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }
+}
