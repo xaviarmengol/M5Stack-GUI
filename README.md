@@ -1,16 +1,16 @@
 # M5Stack-GUI
 A modular GUI library for M5Stack (ESP32).
 
-This library has evolved from cfGUI library and is the intention is to make it simpler, richer and more modular.
+This library has evolved from cfGUI library. The intention is to make it simpler, richer and more modular.
 
-It's composed of a simple hierarchy of graphical widget that can be drawn on screen. Each of them have a standard view, and a zoomed view.
+It's composed of a simple hierarchy of graphical widget that can be drawn on screen. Each widget has a standard view, and a zoomed view.
 
-The following widgets have been created so far:
+The following widgets have been created:
 
   - Screen and AppScreen (screen with a top bar and a bottom bar)
   - Bar
-  - StatusBar (Bar with uptime, clock and Wifi signal)
-  - ButtonInfoBar (display the function of the physical button)
+  - StatusBar: Bar with uptime, clock and Wifi signal
+  - ButtonInfoBar: display the function of the physical button
   - Button: Shows a value. In zoomed mode can also show a graph of the last samples
   - UpDownButton: Used to modify a value.
   - Log Screen: display logging text when in zoom mode
