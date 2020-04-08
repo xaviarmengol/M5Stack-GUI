@@ -43,7 +43,7 @@ void Codingfield::UI::WidgetMosaicComp::Draw() {
     centerSize.height = 240 - (((bottomBar != nullptr) ? bottomBar->GetSize().height : 0) + ((topBar != nullptr) ? topBar->GetSize().height : 0) + PADDING);
     centerSize.width = 320;
 
-    M5.Lcd.fillRect(centerPosition.x, centerPosition.y, centerSize.width, centerSize.height, BLACK);
+    //M5.Lcd.fillRect(centerPosition.x, centerPosition.y, centerSize.width, centerSize.height, BLACK);
 
   }
   oldIsInZoom = IsInZoom();
